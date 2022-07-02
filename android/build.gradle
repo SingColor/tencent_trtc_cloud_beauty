@@ -53,5 +53,5 @@ android {
     }
 }
 dependencies {
-    implementation fileTree(dir:"./libs",include:['*.jar','*.aar'])
+    compileOnly fileTree(dir:"./libs",include:['*.jar','*.aar'])
 }
